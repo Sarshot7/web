@@ -1,0 +1,67 @@
+body{
+    background-color: #f0eaea;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+}
+.logo{
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 22px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: sans-serif;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+#contact{
+    position: relative;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 14px;
+}
+#contact-box input, 
+#contact-box textarea{
+    width: 100%;
+    padding: 0.2rem;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    height: 44px;
+} 
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+   font-size: 1.3rem;
+   font-family: 'Bree Serif', serif;
+
+}
+p{
+    text-align: center;
+    font-size: 34px;
+}
+

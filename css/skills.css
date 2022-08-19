@@ -1,0 +1,83 @@
+body{
+    background-color: #f0eaea;
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.2);
+    padding: 0px 5%;
+}
+.logo{
+    font-family: sans-serif;
+    color: #000000;
+    font-size: 22px;
+}
+nav ul{
+    display: flex;
+}
+nav ul li a{
+    margin: 30px;
+    font-family: sans-serif;
+    color: #505050;
+    font-size: 15px;
+    font-weight: 700;
+
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    text-align: center;
+    font-size: 34px;
+}
+
+
+.boxw, .boxa, .boxf{
+    width: 300px;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.boxs{
+    display: flex;
+    justify-content: space-between;
+  
+   
+}
+.boxw{
+    background-image: url("../img/webpic.jpg ");
+}
+.boxa{
+    background-image: url("../img/apppic.jpg ");
+}
+.boxf{
+    background-image: url("../img/footballpic.jpg");
+
+}
+
+.headings{
+    font-size: 32px;
+    color:#161313;
+    font-family: serif;
+    background-color:#ffffff;
+}
+.skls{
+    height: 600px;  
+    background-color: #ffffff;
+    padding: 2% 10% 0px 10%;
+
+}
